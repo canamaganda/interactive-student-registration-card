@@ -11,7 +11,7 @@ nameInput.addEventListener("input", () => {
 
 studentForm.addEventListener("submit", (event) => {
   event.preventDefault();
-  welcomeMessage.textContent = "Welcome, " + nameInput.value + " | Course: " + courseInput.value + "!"; 
+  welcomeMessage.textContent = "Welcome, " + nameInput.value + "" + courseInput.value + "!"; 
 });
 
 toggleTheme.addEventListener("click", () => {
