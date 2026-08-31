@@ -59,3 +59,8 @@ button {
 .dark .registration-card label {
     color: white;
 }
+
+#toggleTheme {
+  display: block;
+  margin: 20px auto 0;
+}
