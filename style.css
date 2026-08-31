@@ -49,7 +49,13 @@ button {
   color: white;
 }
 
-.dark.registration-card {
-  background: #333;
+.dark .registration-card {
+    background: #333;
+    color: white;
 }
 
+.dark .registration-card h1,
+.dark .registration-card h2,
+.dark .registration-card label {
+    color: white;
+}
