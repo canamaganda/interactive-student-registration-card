@@ -9,7 +9,7 @@ nameInput.addEventListener("input", () => {
   welcomeMessage.textContent = "Hello, " + nameInput.value + "!";
 });
 
-studentForm.addEventListene("submit", (event) => {
+studentForm.addEventListener("submit", (event) => {
   event.preventDefault();
   welcomeMessage.textContent = "Welcome, " + nameInput.value + "!"; 
 });
@@ -19,7 +19,7 @@ toggleTheme.addEventListener("click", () => {
   myBody.classList.toggle("dark");
 });
 
-document.addEventListener("keydown", (event) -> {
+document.addEventListener("keydown", (event) => {
   if (event.key === "Escape") {
 welcomeMessage.textContent = "";
 }
