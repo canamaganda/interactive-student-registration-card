@@ -15,7 +15,6 @@ studentForm.addEventListener("submit", (event) => {
 });
 
 toggleTheme.addEventListener("click", () => {
-
   myBody.classList.toggle("dark");
 });
 
